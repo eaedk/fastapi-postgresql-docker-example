@@ -47,6 +47,30 @@ This is a simple example project demonstrating how to build a FastAPI applicatio
 
 4. Test the endpoints using cURL or any HTTP client.
 
+## Endpoints and cURL Commands
+
+### Create a new item
+```bash
+curl -X POST "http://localhost:8000/items/" -H "Content-Type: application/json" -d '{"name": "Item 1", "description": "Description of Item 1"}'
+```
+
+### Retrieve an item by ID
+```bash
+curl -X GET "http://localhost:8000/items/{item_id}"
+```
+
+### Update an existing item
+```bash
+curl -X PUT "http://localhost:8000/items/{item_id}" -H "Content-Type: application/json" -d '{"name": "Updated Item", "description": "Updated Description"}'
+```
+
+### Delete an item by ID
+```bash
+curl -X DELETE "http://localhost:8000/items/{item_id}"
+```
+
+Replace `{item_id}` with the actual ID of the item you want to interact with.
+
 ## Environment Variables
 
 Environment variables are used to configure the PostgreSQL connection. You can set these variables in a `.env` file located in the project directory.
