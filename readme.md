@@ -12,7 +12,7 @@ This is a simple example project demonstrating how to build a FastAPI applicatio
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/fastapi-postgresql-docker.git
+    git clone https://github.com/eaedk/fastapi-postgresql-docker.git
     ```
 
 2. Navigate to the project directory:
