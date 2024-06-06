@@ -12,13 +12,13 @@ This is a simple example project demonstrating how to build a FastAPI applicatio
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/eaedk/fastapi-postgresql-docker.git
+    git clone https://github.com/eaedk/fastapi-postgresql-docker-example.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd fastapi-postgresql-docker
+    cd fastapi-postgresql-docker-example
     ```
 
 3. Install the required Python packages:
